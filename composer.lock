@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6558f74828bca9ebecac73d90cea4b1a",
+    "content-hash": "6c9e0e0114effd0011a4dac70eb4f462",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -683,6 +683,7 @@
                     "email": "jakub.onderka@gmail.com"
                 }
             ],
+            "abandoned": "php-parallel-lint/php-console-color",
             "time": "2018-09-29T17:23:10+00:00"
         },
         {
@@ -729,6 +730,7 @@
                 }
             ],
             "description": "Highlight PHP code in terminal",
+            "abandoned": "php-parallel-lint/php-console-highlighter",
             "time": "2018-09-29T18:48:56+00:00"
         },
         {
@@ -3446,6 +3448,46 @@
                 "php"
             ],
             "time": "2020-03-13T01:23:26+00:00"
+        },
+        {
+            "name": "wythe/logistics",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/uuk020/logistics.git",
+                "reference": "d1705d316e77f6c88a8361349f48145238b298f2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/uuk020/logistics/zipball/d1705d316e77f6c88a8361349f48145238b298f2",
+                "reference": "d1705d316e77f6c88a8361349f48145238b298f2",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "^1.2",
+                "phpunit/phpunit": "~6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Wythe\\Logistics\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "wythe",
+                    "email": "wythe.huangw@gmail.com"
+                }
+            ],
+            "description": "查询快递物流信息",
+            "time": "2019-06-29T15:20:34+00:00"
         }
     ],
     "packages-dev": [
